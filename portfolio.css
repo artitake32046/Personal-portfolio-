@@ -1,0 +1,139 @@
+
+.nav-item a{
+  color:white;
+}
+.nav-item a:hover{
+  color:white;
+  border-bottom: 3px solid white;
+}
+.FirstPart {
+  position: relative; 
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVkxT1nXeDhv1ggVjBZbFfKhKfKST5fA7MsA&s');
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ 
+
+}
+
+.FirstPart::before {
+  
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+
+
+}
+
+
+
+
+.myimage{
+  height: 400px;
+
+  width:80%;
+  margin: 50px;
+border-radius: 10px 80px 10px ;
+border: 6px double rgb(7, 129, 129);
+
+
+
+  
+}
+
+
+
+
+.myimage1{
+  height: 500px;
+  width: 100%;
+  border: 4px dotted rgb(7, 129, 129);
+  margin-top: 30px;
+  border-radius: 10px;
+}
+/* card */
+
+.card {
+  border: none;
+  border-radius: 15px;
+
+
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 10px white;
+}
+
+.card-img-top{
+  padding: 10px 50px;
+  text-align: center;
+}
+
+
+.btn {
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+.card-body1 img{
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+}
+.card-title:hover{
+ color: rgb(27, 167, 177);
+}
+
+/* model */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 500px; 
+  overflow: auto;
+  
+  padding-top: 60px; 
+}
+
+/* model content */
+.modal-content {
+  background-color: black;
+  margin: 5% auto; 
+  padding: 20px;
+  border: 1px solid white; 
+  width: 80%; 
+  max-width: 600px; 
+  border-radius: 20px; 
+}
+
+.close {
+  color: #aaa; 
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
